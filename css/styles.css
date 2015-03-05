@@ -1,0 +1,176 @@
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	height: 35px;
+	width: 35px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	opacity: 1;
+}
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+select{
+	width: 230px;
+}
+
+span {
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	line-height: 35px;
+	margin-right: 10px;
+	margin-left: 5px;
+	float: left;
+}
+
+canvas {
+	border: 2px solid black;
+	z-index: 2;
+	border-radius: 5px;
+	}
+
+button {
+	float: left;
+	text-align: center;
+}
+
+
+
+#container {
+	position: relative;
+	border-radius: 5px;
+	border: 3px solid black;
+	width: 100%;
+	height: 95vh;
+}
+
+#googleMap,
+#display,
+#myCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+}
+
+#googleMap {
+	z-index: 1;
+}
+
+#instructions,
+#dayTime {
+	z-index: 4;
+	background-color: #002966; 
+	padding: 5px;
+	border-radius:5px;
+	border:2px solid #768d87;	
+}
+
+img {
+	height: 21px;
+	width: 21px;
+}
+
+#instructions {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#dayTime {	
+	color:#ffffff;
+	line-height: 41px;
+	font-family:arial;
+	font-size:20px;
+	font-weight:bold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	text-align: center;
+}
+
+#foot {
+	z-index: 3;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+}
+
+#play {
+	display: none;
+	margin-right: 8px;
+}
+
+#pause{
+	display: none;
+	margin-right: 8px;
+}
+
+#reset{
+	display: none;
+	margin-right: 10px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#loadBar {
+	float: left;
+	margin-right: 5px;
+	background: white;
+	border: 2px solid #768d87;
+	margin-top: 11px;
+}
+
+#slider {
+	margin-left: 20px;
+	margin-right: 15px;
+	float: right;
+	border: none;
+	margin-top: 12px;
+	
+}
+
+
+
+
